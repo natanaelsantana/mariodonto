@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+  .nav-link {
+    @apply text-[#571e0d] hover:text-[#666] font-semibold text-base;
+  }
+  
