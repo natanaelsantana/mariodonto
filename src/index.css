@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+body {
+  @apply font-openSans;
+}
+
   .nav-link {
-    @apply text-[#571e0d] hover:text-[#666] font-semibold text-base;
+    @apply text-[#571e0d] hover:opacity-75 font-semibold text-left text-base transition-opacity duration-300 ;
   }
   
+  .nav-link.active {
+    @apply text-black ; /* ou a cor desejada para a seção ativa */
+  }
