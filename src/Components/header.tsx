@@ -86,6 +86,8 @@ export const Header: React.FC = () => {
               ? "flex-col justify-center flex items-start w-3/4 ml-10 sm:m-0 border-[#571e0d] border-t-4 sm:border-0 space-y-4 absolute top-full left-0 right-0 bg-white p-4 "
               : "hidden"
           } ${isMenuOpen ? "" : "hidden"} `}
+
+
         >
           <ul
             className={`flex items-stretch space-x-8 ${
