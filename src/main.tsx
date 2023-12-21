@@ -5,6 +5,7 @@ import { App } from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { ErrorPage } from "./Pages/ErrorPage";
 import { QuemSomos } from "./Pages/QuemSomos";
+import { InvisaLign } from "./Pages/InvisaLign";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     path: "/quem-somos",
     element: <QuemSomos />,
   },
+  {
+    path: "/aparelho-invisalign",
+    element: <InvisaLign/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

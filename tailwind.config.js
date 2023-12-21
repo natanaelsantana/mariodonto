@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        maribrown: "#571e0d",
+      },
+    },
     fontFamily: {
       openSans: ["Open Sans", "sans-serif"],
       cantataOne: ["Cantata One", "serif"],
