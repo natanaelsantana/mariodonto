@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       openSans: ["Open Sans", "sans-serif"],
+      cantataOne: ["Cantata One", "serif"],
     },
   },
   plugins: [],

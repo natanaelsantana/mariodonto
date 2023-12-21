@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +9,36 @@ body {
 }
 
   .nav-link {
-    @apply text-[#571e0d] hover:opacity-75 font-semibold text-left text-base transition-opacity duration-300;
+    @apply text-[#571e0d] hover:opacity-75 font-semibold sm:font-semibold text-left text-sm sm:text-base transition-opacity duration-300 w-fit  ;
   }
   
   .nav-link.active {
-    @apply text-black ; /* ou a cor desejada para a seção ativa */
+    @apply   sm:text-black ; /* ou a cor desejada para a seção ativa */
   }
+
+
+  @layer utilities {
+     .text-shadow {
+       text-shadow: 0.08em 0.08em 0em rgba(0,0,0,0.4)
+    }
+    .text-shadow-low {
+      text-shadow: .09em 0.08em 0em rgba(0,0,0,0.4)
+    }
+  }
+
+  @media (min-width: 1024px) {
+    @keyframes slide-up {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      30% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  
+    .slide-up {
+      animation: 1.5s ease-out 0s slide-up;
+    }
+}

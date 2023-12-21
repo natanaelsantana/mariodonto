@@ -47,19 +47,20 @@ export const Header: React.FC = () => {
     { to: "/", text: "Home" },
     { to: "/quem-somos", text: "Quem Somos" },
     { to: "/tratamentos", text: "Os Tratamentos" },
+    { text: "Implante Dentário", to: "/tratamentos/implante-dentario" },
+    { text: "Facetas em Resina", to: "/tratamentos/facetas-resina" },
     { to: "/aparelho-invisalign", text: "Invisalign" },
   ];
 
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = window.innerWidth <= 1000;
 
   return (
-    <header className=" py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center fixed z-30">
-      <div className="w-4/5 sm:w-4/5 flex self-center items-center justify-between p-2 z-30">
+    <header className="py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center relative lg:fixed z-30">
+      <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30">
         <img
           src="./src/pics/Logo-Mari-Odontologia-Guaruja.fw_.png"
           alt="Mari Odonto Logo"
-          className={`transition-all duration-500 
-          `}
+          className={`transition-all duration-500 `}
           style={{ height: isMobile ? "12vw" : `${imageSize}px` }}
         />
 
@@ -81,29 +82,38 @@ export const Header: React.FC = () => {
         </div>
 
         <nav
-          className={`lg:flex ${
-            isMobile
-              ? "flex-col justify-center flex items-start w-3/4 ml-10 sm:m-0 border-[#571e0d] border-t-4 sm:border-0 space-y-4 absolute top-full left-0 right-0 bg-white p-4 "
-              : "hidden"
-          } ${isMenuOpen ? "" : "hidden"} `}
+          className={`flex-col lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-[#571e0d] border-t-4 space-y-4 lg:border-none  right-0 left-0 bg-white p-4    ${
+            isMenuOpen ? "" : "hidden"
+          } `}
         >
-          <ul
-            className={`flex items-stretch space-x-8 ${
-              isMobile
-                ? "flex-col items-center border border-gray-200"
-                : "lg:flex"
-            }`}
-          >
+          <ul className="block lg:flex justify-end items-center w-full space-x-0 sm:items-stretch lg:space-x-8 ">
             {links.map((link) => (
-              <li key={link.to}>
+              <li
+                key={link.to}
+                className={`border-b p-2.5 lg:p-0  lg:border-none ${
+                  !isMobile &&
+                  (link.to === "/tratamentos/facetas-resina" ||
+                    link.to === "/tratamentos/implante-dentario")
+                    ? "hidden"
+                    : ""
+                } ${
+                  isMobile && link.to === "/tratamentos" ? "bg-gray-100" : ""
+                }`}
+              >
                 {link.to === "/tratamentos" && !isMobile ? (
                   <DropdownMenu options={treatmentOptions} />
                 ) : (
                   <Link
                     to={link.to}
-                    className={
+                    className={`${
                       activeSection === link.to ? "nav-link active" : "nav-link"
-                    }
+                    } ${
+                      isMobile &&
+                      (link.to === "/tratamentos/facetas-resina" ||
+                        link.to === "/tratamentos/implante-dentario")
+                        ? "ml-5"
+                        : ""
+                    } `}
                     onClick={() => setActiveSection(link.to)}
                   >
                     {link.text}
@@ -134,7 +144,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ options }) => {
     >
       <div>
         <Menu.Button
-          className={`inline-flex w-full justify-center gap-x-1.5 rounded-md text-[#571e0d] ${
+          className={`inline-flex w-full justify-center gap-x-1.5 rounded-md text-[#571e0d] font-semibold ${
             isHovered ? "opacity-75" : ""
           }`}
         >
@@ -166,8 +176,10 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ options }) => {
                   <Link
                     to={option.to}
                     className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block py-3 text-sm "
+                      active
+                        ? "bg-gray-100 font-openSans"
+                        : " text-[#571e0d] font-semibold font-openSans",
+                      "block py-3 text-sm text-[#571e0d] font-semibold"
                     )}
                   >
                     {option.label}

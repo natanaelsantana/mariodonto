@@ -6,19 +6,23 @@ export const Home = () => {
       <Header />
 
       <section>
-        <div className="relative h-full">
+        <div className="h-full lg:relative">
           <img
             src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg"
-            className="z-10"
+            className="h-full z-10"
           />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center">
-            <h1 className="text-4xl font-bold">Mari Odontologia</h1>
-            <h2 className="text-2xl">O seu Sorriso em boas mãos!</h2>
+          <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 slide-up">
+            <h1 className="text-4xl lg:text-5xl font-normal font-cantataOne text-center text-[#571e0d] lg:text-white lg:text-shadow pb-6 leading-tight">
+              Mari Odontologia
+            </h1>
+            <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-[#571e0d] lg:text-white lg:text-shadow pb-6 leading-normal">
+              O seu Sorriso em boas mãos!
+            </h2>
             <a
               href="https://api.whatsapp.com/send?phone=551333822412&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
               target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded"
+              rel="whatsapp button"
+              className="mt-6 inline-block text-md font-bold font-openSans bg-[#571e0d] text-white py-3 px-6 rounded-full"
             >
               Agende sua visita
             </a>
