@@ -10,7 +10,7 @@ body {
 }
 
   .nav-link {
-    @apply text-[#571e0d] hover:opacity-75 font-semibold text-left text-base transition-opacity duration-300 ;
+    @apply text-[#571e0d] hover:opacity-75 font-semibold text-left text-base transition-opacity duration-300;
   }
   
   .nav-link.active {
