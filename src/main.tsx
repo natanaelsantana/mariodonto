@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { ErrorPage } from "./Pages/ErrorPage";
 import { QuemSomos } from "./Pages/QuemSomos";
 import { InvisaLign } from "./Pages/InvisaLign";
+import { Tratamentos } from "./Pages/Tratamentos";
 
 const router = createBrowserRouter([
   {
@@ -23,8 +24,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/aparelho-invisalign",
-    element: <InvisaLign/>
-  }
+    element: <InvisaLign />,
+  },
+  {
+    path: "/tratamentos",
+    element: <Tratamentos />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

@@ -9,7 +9,7 @@ body {
 }
 
   .nav-link {
-    @apply text-[#571e0d] hover:opacity-75 font-semibold sm:font-semibold text-left text-sm sm:text-base transition-opacity duration-300 w-fit  ;
+    @apply text-maribrown hover:opacity-75 font-semibold sm:font-semibold text-left text-sm sm:text-base transition-opacity duration-300 w-fit  ;
   }
   
   .nav-link.active {

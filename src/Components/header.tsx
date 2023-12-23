@@ -82,7 +82,7 @@ export const Header: React.FC = () => {
         </div>
 
         <nav
-          className={`flex-col lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-[#571e0d] border-t-4 space-y-4 lg:border-none  right-0 left-0 bg-white p-4    ${
+          className={`flex-col lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-maribrown border-t-4 space-y-4 lg:border-none  right-0 left-0 bg-white p-4    ${
             isMenuOpen ? "" : "hidden"
           } `}
         >
@@ -144,13 +144,13 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ options }) => {
     >
       <div>
         <Menu.Button
-          className={`inline-flex w-full justify-center gap-x-1.5 rounded-md text-[#571e0d] font-semibold ${
+          className={`inline-flex w-full justify-center gap-x-1.5 rounded-md text-maribrown  font-semibold ${
             isHovered ? "opacity-75" : ""
           }`}
         >
           <Link to={"/tratamentos"}>Os Tratamentos</Link>
           <ChevronDownIcon
-            className={`-mr-1 h-5 w-5 text-[#571e0d] ${
+            className={`-mr-1 h-5 w-5 text-maribrown   ${
               isHovered ? "opacity-75" : ""
             }`}
             aria-hidden="true"
@@ -168,7 +168,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ options }) => {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute left-0 z-10 py-5 w-56 origin-top-right border-t-4 border-[#571e0d] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute left-0 z-10 py-5 w-56 origin-top-right border-t-4 border-maribrown bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className=" px-5 text-center">
             {options.map((option) => (
               <Menu.Item key={option.to}>
@@ -178,8 +178,8 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ options }) => {
                     className={classNames(
                       active
                         ? "bg-gray-100 font-openSans"
-                        : " text-[#571e0d] font-semibold font-openSans",
-                      "block py-3 text-sm text-[#571e0d] font-semibold"
+                        : " text-maribrown   font-semibold font-openSans",
+                      "block py-3 text-sm text-maribrown   font-semibold"
                     )}
                   >
                     {option.label}
