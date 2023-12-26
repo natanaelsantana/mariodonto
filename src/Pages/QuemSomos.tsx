@@ -2,6 +2,7 @@ import { Footer } from "../Components/Footer";
 import { Header } from "../Components/header";
 import { Team } from "../Components/sections/Team";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
+import { Contact } from "../Components/sections/Contact";
 
 export const QuemSomos = () => {
   return (
@@ -9,6 +10,10 @@ export const QuemSomos = () => {
       <Header />
       <TreatmentsIcons />
       <Team />
+
+      <section className="pb-20">
+        <Contact />
+      </section>
       <Footer />
     </div>
   );

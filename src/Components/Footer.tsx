@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="bg-gray-700 text-center w-full">
+    <footer className="bg-black bg-opacity-70 text-center text-[#c4c4c4] w-full p-4">
       <p>
         Mari Odontologia Ⓒ Todos os direitos reservados. Personalizado por
         UpReservas

@@ -6,11 +6,13 @@ import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
 
 export const Tratamentos = () => {
   return (
-    <div className="flex flex-col items-center overflow-hidden min-h-screen w-screen">
+    <div>
       <Header />
       <TreatmentsIcons />
       <Treatments />
-      <Contact />
+      <section className="pb-20">
+        <Contact />
+      </section>
       <Footer />
     </div>
   );

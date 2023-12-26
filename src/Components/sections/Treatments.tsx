@@ -8,8 +8,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Profilaxia-Mari-Odontologia.jpg"
-                alt=""
+                src="./src/pics/Profilaxia-Mari-Odontologia.jpg"
+                alt="Profilaxia"
                 title=""
               />
             </div>
@@ -47,8 +47,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/02/O-Implante-Dentario.jpg"
-                alt=""
+                src="./src/pics/O-Implante-Dentario.jpg"
+                alt="Implante Dentário"
               />
             </div>
           </div>
@@ -66,12 +66,16 @@ export const Treatments = () => {
                 substituir um dente perdido e restabelecer o seu sorriso.
                 <strong>Nunca é tarde para sorrir!</strong>
               </p>
+
               <a
                 href="https://mariodontologia.com.br/implante-dentario/"
                 target="_blank"
-                className="mt-6 inline-block text-md font-bold font-openSans bg-maribrown text-white py-3 px-6 rounded-full"
+                className="relative mt-6  text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
               >
                 Saiba mais
+                <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
+                  5
+                </span>
               </a>
             </div>
           </div>
@@ -85,8 +89,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Tratamento-Ortodontico-Mari-Odontologia.jpg"
-                alt=""
+                src="./src/pics/Tratamento-Ortodontico-Mari-Odontologia.jpg"
+                alt="Tratamento Ortodôntico"
               />
             </div>
           </div>
@@ -132,8 +136,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/11/Facetas-de-Resina-Mari-Odontologia-scaled.jpg"
-                alt=""
+                src="./src/pics/Facetas-de-Resina-Mari-Odontologia-scaled.jpg"
+                alt="Facetas de Resina"
               />
             </div>
           </div>
@@ -162,8 +166,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Clareamento-Dental.jpg"
-                alt=""
+                src="./src/pics/Clareamento-Dental.jpg"
+                alt="Clareamento Dental"
                 title=""
               />
             </div>
@@ -193,8 +197,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Harmonizacao-Oro-Facial.jpg"
-                alt=""
+                src="./src/pics/Harmonizacao-Oro-Facial.jpg"
+                alt="Preenchimento Labial"
                 title=""
               />
             </div>
@@ -220,8 +224,8 @@ export const Treatments = () => {
             <div className="mb-8">
               <img
                 className="w-full rounded-3xl shadow-imageShadow"
-                src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Propaganda-Aparelho-Invisalign.png"
-                alt=""
+                src="./src/pics/Propaganda-Aparelho-Invisalign.png"
+                alt="Aparelho Invisalign"
                 title=""
               />
             </div>
@@ -247,12 +251,15 @@ export const Treatments = () => {
                 <li>Menos quebras e emergências.</li>
               </ul>
               <a
-                className="mt-6 inline-block text-md font-bold font-openSans bg-maribrown text-white py-3 px-6 rounded-full"
+                className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
                 href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Agende uma consulta e venha conhecer
+                Agende uma consulta
+                <span className="sm:hidden text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
+                  5
+                </span>
               </a>
             </div>
           </div>

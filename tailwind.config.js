@@ -4,6 +4,7 @@ export default {
   theme: {
     backgroundImage: {
       whiteCircle: "url('./src/pics/dentist-19.png')",
+      contactBackGround: "url('./src/pics/dentist-04.png')",
     },
     extend: {
       colors: {
@@ -14,9 +15,12 @@ export default {
     fontFamily: {
       openSans: ["Open Sans", "sans-serif"],
       cantataOne: ["Cantata One", "serif"],
+      etMoudles: ["ETmoudles"],
     },
     boxShadow: {
       imageShadow: "0px 40px 60px 0px rgba(0,64,135,0.06)",
+      opinionShadow: "0px 12px 18px -6px rgba(0,0,0,0.3)",
+      contactShadow: "0px 20px 50px 0px rgba(0,121,255,0.2)",
     },
   },
   plugins: [],

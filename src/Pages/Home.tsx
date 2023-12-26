@@ -14,7 +14,7 @@ export const Home = () => {
       <section>
         <div className="h-full lg:relative w-screen ">
           <img
-            src="https://mariodontologia.com.br/wp-content/uploads/2022/02/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg"
+            src="./src/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg"
             className="h-full z-10 w-full"
           />
           <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 slide-up">
@@ -24,14 +24,19 @@ export const Home = () => {
             <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-normal">
               O seu Sorriso em boas mãos!
             </h2>
-            <a
-              href="https://api.whatsapp.com/send?phone=551333822412&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
-              target="_blank"
-              rel="whatsapp button"
-              className="mt-6 inline-block text-md font-bold font-openSans bg-maribrown text-white py-3 px-6 rounded-full"
-            >
-              Agende sua visita
-            </a>
+            <div className="group relative inline-block">
+              <a
+                href="https://api.whatsapp.com/send?phone=551333822412&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
+                target="_blank"
+                rel="whatsapp button"
+                className="mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 overflow-hidden transition-all duration-300 ease-linear delay-0"
+              >
+                Agende sua visita
+                <span className=" opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
+                  5
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -53,14 +58,18 @@ export const Home = () => {
               Sorrir com mais Segurança.”
             </p>
           </div>
-          <div className="px-8 flex items-center justify-center">
+
+          <div className="px-8 flex sm:items-center justify-center lg:group lg:relative">
             <a
               href="https://api.whatsapp.com/send?phone=551333822412&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
               target="_blank"
               rel="whatsapp button"
-              className="mt-6 inline-block text-md font-bold font-openSans bg-maribrown text-white py-4 px-6 rounded-full"
+              className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
             >
               Conversar por WhatsApp
+              <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
+                5
+              </span>
             </a>
           </div>
         </div>
@@ -70,47 +79,48 @@ export const Home = () => {
       <Treatments />
 
       {/*Opinião de clientes*/}
-      <section>
-        <div className="flex flex-col">
-          <div className="flex-grow">
-            <div className="text-left">
-              <h2 className="text-2xl font-bold">
-                Veja a opinião de nossos clientes…
-              </h2>
-            </div>
+      <section className="w-full flex justify-center bg-[#f9f9f9]">
+        <div className=" px-10 py-20 lg:flex-col lg:justify-center lg:w-4/5">
+          <div>
+            <h2 className="text-3xl font-normal font-cantataOne text-maribrown text-center mb-16">
+              Veja a opinião de nossos clientes...
+            </h2>
           </div>
-          <div className="flex flex-row">
-            <div className="flex-grow">
-              <div className="text-left">
-                <p>
+          <div className="flex flex-col lg:flex lg:flex-row  gap-y-6 lg:gap-x-16">
+            <div className="flex-grow mb-6 lg:mb-0 lg:w-1/3">
+              <div className="flex-grow p-6 bg-white shadow-opinionShadow">
+                <p className="text-base font-openSans text-lightGray mb-4">
                   Tenho 56 anos e sempre sofri com a protrusão da maxila e já
                   havia procurado vários ortodontistas e em 2 anos ela resolveu.
-                  <br />
-                  Estou feliz e continuarei o tratamento.
-                  <br />
-                  Super indico.
+                  Estou feliz e continuarei o tratamento. Super indico.
                 </p>
-                <span className="font-bold">Fatima Cati F. Maneta</span>
+                <span className="font-bold font-openSans text-base text-lightGray">
+                  Fatima Cati F. Maneta
+                </span>
               </div>
             </div>
-            <div className="flex-grow">
-              <div className="text-left">
-                <p>
+            <div className="flex-grow mb-6 lg:mb-0 lg:w-1/3">
+              <div className="flex-grow p-6 bg-white shadow-opinionShadow">
+                <p className="text-base font-openSans text-lightGray mb-4">
                   Ótima profissional, atenciosa e muito competente.
                   <br />
-                  Já fiz ortodontia com ela, e hj foi extração de siso.
+                  Já fiz ortodontia com ela, e hoje foi extração de siso.
                   Atendimento muito humano.
                 </p>
-                <span className="font-bold">Oriana Carreira</span>
+                <span className="font-bold font-openSans text-base text-lightGray">
+                  Oriana Carreira
+                </span>
               </div>
             </div>
-            <div className="flex-grow">
-              <div className="text-left">
-                <p>
-                  Ótima profissional! Excelente ambiente , atendimento nota10 ,
-                  dr Maria sempre atenciosa.
+            <div className="flex-grow mb-6 lg:mb-0 lg:w-1/3">
+              <div className="flex-grow p-6 bg-white shadow-opinionShadow">
+                <p className="text-base font-openSans text-lightGray mb-4">
+                  Ótima profissional! Excelente ambiente, atendimento nota 10,
+                  Dra. Maria sempre atenciosa.
                 </p>
-                <span className="font-bold">Tamires Amancio</span>
+                <span className="font-bold font-openSans text-base text-lightGray">
+                  Tamires Amancio
+                </span>
               </div>
             </div>
           </div>
@@ -122,9 +132,9 @@ export const Home = () => {
       <Contact />
 
       {/*Localizacão */}
-      <section>
-        <div className="flex justify-around mt-4">
-          <div className="flex flex-col items-center">
+      <section className=" w-full flex flex-col lg:flex justify-center bg-white px-20 py-10">
+        <div className="flex flex-col lg:flex-row justify-around mt-4 gap-x-10">
+          <div className="flex flex-col lg:flex items-center">
             <iframe
               className="border-0"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14581.711635280488!2d-46.1956198!3d-23.9806621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec45bbbe8359cb7a!2sMari%20Odontologia!5e0!3m2!1spt-BR!2sbr!4v1645985890091!5m2!1spt-BR!2sbr"

@@ -55,7 +55,11 @@ export const Header: React.FC = () => {
   const isMobile = window.innerWidth <= 1000;
 
   return (
-    <header className="py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center relative lg:fixed z-30">
+    <header
+      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center relative lg:fixed z-30  ${
+        scrollPosition > 50 ? "lg:drop-shadow-md" : ""
+      }`}
+    >
       <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30">
         <img
           src="./src/pics/Logo-Mari-Odontologia-Guaruja.fw_.png"
