@@ -5,10 +5,11 @@ import { Contact } from "../Components/sections/Contact";
 import { Team } from "../Components/sections/Team";
 import { Treatments } from "../Components/sections/Treatments";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
+import ButtonWithIcon from "../Components/Button";
 
 export const Home = () => {
   return (
-    <div className="flex flex-col items-center overflow-hidden min-h-screen w-screen">
+    <div>
       <Header />
 
       <section>
@@ -24,19 +25,7 @@ export const Home = () => {
             <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-normal">
               O seu Sorriso em boas mãos!
             </h2>
-            <div className="group relative inline-block">
-              <a
-                href="https://api.whatsapp.com/send?phone=551333822412&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
-                target="_blank"
-                rel="whatsapp button"
-                className="mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 overflow-hidden transition-all duration-300 ease-linear delay-0"
-              >
-                Agende sua visita
-                <span className=" opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-                  5
-                </span>
-              </a>
-            </div>
+            <ButtonWithIcon buttonText="Agende sua visita" iconText="5" />
           </div>
         </div>
       </section>
@@ -59,19 +48,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="px-8 flex sm:items-center justify-center lg:group lg:relative">
-            <a
-              href="https://api.whatsapp.com/send?phone=551333822412&text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
-              target="_blank"
-              rel="whatsapp button"
-              className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
-            >
-              Conversar por WhatsApp
-              <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-                5
-              </span>
-            </a>
-          </div>
+          <ButtonWithIcon buttonText="Conversar por Whatsapp" iconText="5" />
         </div>
       </section>
 

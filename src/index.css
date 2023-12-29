@@ -34,3 +34,34 @@ body {
     right: 14px;
   }
   
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-slideDown {
+    animation: slideDown 0.5s ease-out;
+  }
+  
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animated-slideUp {
+    animation: slideUp 0.5s ease-out;
+  }

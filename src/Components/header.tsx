@@ -56,8 +56,8 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center relative lg:fixed z-30  ${
-        scrollPosition > 50 ? "lg:drop-shadow-md" : ""
+      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center relative lg:sticky z-30  ${
+        scrollPosition > 50 ? "lg:drop-shadow-md" : "border-b"
       }`}
     >
       <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30">

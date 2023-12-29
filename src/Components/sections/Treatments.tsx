@@ -1,3 +1,5 @@
+import ButtonWithIcon from "../Button";
+
 export const Treatments = () => {
   return (
     <section>
@@ -67,16 +69,7 @@ export const Treatments = () => {
                 <strong>Nunca é tarde para sorrir!</strong>
               </p>
 
-              <a
-                href="https://mariodontologia.com.br/implante-dentario/"
-                target="_blank"
-                className="relative mt-6  text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
-              >
-                Saiba mais
-                <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-                  5
-                </span>
-              </a>
+              <ButtonWithIcon buttonText="Saiba mais" iconText="5" />
             </div>
           </div>
         </div>
@@ -250,17 +243,7 @@ export const Treatments = () => {
                 <li>É praticamente invisível e não compromete a estética.</li>
                 <li>Menos quebras e emergências.</li>
               </ul>
-              <a
-                className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
-                href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Agende uma consulta
-                <span className="sm:hidden text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-                  5
-                </span>
-              </a>
+              <ButtonWithIcon buttonText="Agende uma consulta" iconText="5" />
             </div>
           </div>
         </div>

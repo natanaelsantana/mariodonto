@@ -1,8 +1,8 @@
 export const Team = () => {
   return (
     <section className="w-full flex justify-center">
-      <div className=" px-10 lg:px-0 py-20 lg:flex-col lg:justify-center lg:w-4/5">
-        <h2 className="text-4xl text-center font-normal  mb-20 font-cantataOne text-maribrown">
+      <div className=" px-10 lg:px-0 pb-20 pt-10 lg:flex-col lg:justify-center lg:w-4/5">
+        <h2 className="text-2xl lg:text-4xl text-center font-normal  mb-20 font-cantataOne text-maribrown">
           Nossa Equipe
         </h2>
         <div className="flex flex-col lg:flex lg:flex-row  gap-y-2 lg:gap-x-16">
