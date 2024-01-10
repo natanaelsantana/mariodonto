@@ -12,19 +12,19 @@ export const QuemSomos = () => {
 
       <section className=" bg-maribrown w-screen ">
         <div className="bg-quemSomosBackground bg-cover bg-right bg-no-repeat h-full rounded-bl-[30px] lg:rounded-bl-[10vw] ">
-          <div className="relative h-full w-screen bg-radial-gradient py-10 px-10 lg:pb-10 rounded-bl-[30px] lg:p-32 lg:pt-60 lg:rounded-bl-[10vw] lg:flex shadow-imageShadow ">
+          <div className="relative h-full w-screen bg-radial-gradient py-10 px-10 lg:pb-10 rounded-bl-[30px] lg:p-32 lg:pt-50 lg:rounded-bl-[10vw] lg:flex shadow-imageShadow ">
             <div className="w-full lg:w-2/3 lg:flex-col lg:justify-center ">
               <div className="text-left">
-                <h1 className="text-2xl text-left font-normal lg:text-4xl text-[#333] font-cantataOne mb-4">
+                <h1 className="text-2xl text-left font-normal lg:text-4xl text-[#333] font-cantataOne mb-4 animated-slideUp">
                   O seu Sorriso em boas mãos!
                 </h1>
-                <h2 className="text-xl text-[#000000] opacity-30 mb-16 ">
+                <h2 className="text-xl text-[#000000] opacity-50 mb-16 animated-slideUp ">
                   Lembre-se: A saúde começa pela boca!
                 </h2>
               </div>
-              <div className="mt-4 mb-16">
+              <div className="mt-4 mb-16 animated-slideUp">
                 <a
-                  className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
+                  className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-mariYellow text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
                   href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
                   target="_blank"
                   rel="noopener noreferrer"

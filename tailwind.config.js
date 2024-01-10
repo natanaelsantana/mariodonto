@@ -7,17 +7,23 @@ export default {
       contactBackGround: "url('./src/pics/dentist-04.png')",
       quemSomosBackground: "url('./src/pics/dentist-23.jpg')",
       equipamentosBackground: "url('./src/pics/dentist-15.jpg')",
+      implanteDentario:
+        "url('./src/pics/Como-funciona-o-implante-dentario-1.jpg')",
+      facetasResina: "url('./src/pics/Facetas-em-resina.jpg')",
     },
     extend: {
       colors: {
-        maribrown: "#571e0d",
+        maribrown: "#673425",
         lightGray: "#666",
+        mariYellow: "#d49e0a",
       },
       backgroundImage: () => ({
         "radial-gradient":
           "radial-gradient(circle at right, rgba(255, 255, 255, 0) 0%, #ffffff 70%)",
         "linear-gradient":
           "linear-gradient(180deg, rgba(255,255,255,0.29) 0%, #ffffff 100%)",
+        "invisalign-gradient":
+          "linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, #ffffff 100%, rgba(255, 255, 255, 1))",
       }),
     },
     fontFamily: {
@@ -30,6 +36,8 @@ export default {
       opinionShadow: "0px 12px 18px -6px rgba(0,0,0,0.3)",
       contactShadow: "0px 20px 50px 0px rgba(0,121,255,0.2)",
       insideShadow: "inset 80px -100px 200px 80px #ffffff",
+      invisalignShadow: "0px -100px 200px 0px #ffffff",
+      headerShadow: "0 2px 5px rgba(0,0,0,.1)",
     },
   },
   plugins: [],

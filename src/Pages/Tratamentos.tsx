@@ -13,7 +13,7 @@ export const Tratamentos = () => {
       <section className=" bg-equipamentosBackground bg-cover bg-center w-screen shadow-insideShadow ">
         <div className="flex justify-center bg-linear-gradient bg-cover py-14 px-10 lg:px-32 shadow-insideShadow">
           <div className="w-full md:w-full lg:w-2/3  ">
-            <div className="text-center">
+            <div className="text-center lg:mb-10">
               <h2 className="text-2xl font-medium font-cantataOne text-maribrown mb-6 leading-normal">
                 Tratamentos
               </h2>

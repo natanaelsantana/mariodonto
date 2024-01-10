@@ -18,11 +18,11 @@ export const Home = () => {
             src="./src/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg"
             className="h-full z-10 w-full"
           />
-          <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 slide-up">
-            <h1 className="text-4xl lg:text-5xl font-normal font-cantataOne text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-tight">
+          <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 ">
+            <h1 className="text-4xl lg:text-5xl font-normal font-cantataOne text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-tight animated-slideUp">
               Mari Odontologia
             </h1>
-            <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-normal">
+            <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-normal animated-slideUp">
               O seu Sorriso em boas mãos!
             </h2>
             <ButtonWithIcon buttonText="Agende sua visita" iconText="5" />

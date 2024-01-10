@@ -22,6 +22,7 @@ export const Header: React.FC = () => {
   useEffect(() => {
     const pathname = location.pathname;
     setActiveSection(pathname);
+    window.scrollTo(0, 0); // Rola a página para o topo
   }, [location.pathname]);
 
   useEffect(() => {
@@ -39,16 +40,16 @@ export const Header: React.FC = () => {
   const imageSize = scrollPosition > 50 ? "40" : "96";
 
   const treatmentOptions = [
-    { label: "Implante Dentário", to: "/tratamentos/implante-dentario" },
-    { label: "Facetas em Resina", to: "/tratamentos/facetas-resina" },
+    { label: "Implante Dentário", to: "/implante-dentario" },
+    { label: "Facetas em Resina", to: "/facetas-resina" },
   ];
 
   const links = [
     { to: "/", text: "Home" },
     { to: "/quem-somos", text: "Quem Somos" },
     { to: "/tratamentos", text: "Os Tratamentos" },
-    { text: "Implante Dentário", to: "/tratamentos/implante-dentario" },
-    { text: "Facetas em Resina", to: "/tratamentos/facetas-resina" },
+    { text: "Implante Dentário", to: "/implante-dentario" },
+    { text: "Facetas em Resina", to: "/facetas-resina" },
     { to: "/aparelho-invisalign", text: "Invisalign" },
   ];
 
@@ -86,9 +87,11 @@ export const Header: React.FC = () => {
         </div>
 
         <nav
-          className={`flex-col lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-maribrown border-t-4 space-y-4 lg:border-none  right-0 left-0 bg-white p-4    ${
-            isMenuOpen ? "" : "hidden"
-          } `}
+          className={`flex-col lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-maribrown border-t-4 space-y-4 lg:border-none right-0 left-0 bg-white p-4 transform opacity-0 lg:opacity-100  scale-0${
+            isMenuOpen
+              ? "shadow-headerShadow transition ease-out duration-500  transform opacity-100 scale-100"
+              : "hidden "
+          }`}
         >
           <ul className="block lg:flex justify-end items-center w-full space-x-0 sm:items-stretch lg:space-x-8 ">
             {links.map((link) => (
@@ -96,8 +99,8 @@ export const Header: React.FC = () => {
                 key={link.to}
                 className={`border-b p-2.5 lg:p-0  lg:border-none ${
                   !isMobile &&
-                  (link.to === "/tratamentos/facetas-resina" ||
-                    link.to === "/tratamentos/implante-dentario")
+                  (link.to === "/facetas-resina" ||
+                    link.to === "/implante-dentario")
                     ? "hidden"
                     : ""
                 } ${
@@ -113,8 +116,8 @@ export const Header: React.FC = () => {
                       activeSection === link.to ? "nav-link active" : "nav-link"
                     } ${
                       isMobile &&
-                      (link.to === "/tratamentos/facetas-resina" ||
-                        link.to === "/tratamentos/implante-dentario")
+                      (link.to === "/facetas-resina" ||
+                        link.to === "/implante-dentario")
                         ? "ml-5"
                         : ""
                     } `}
@@ -183,7 +186,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ options }) => {
                       active
                         ? "bg-gray-100 font-openSans"
                         : " text-maribrown   font-semibold font-openSans",
-                      "block py-3 text-sm text-maribrown   font-semibold"
+                      "block py-3 text-base text-maribrown   font-semibold"
                     )}
                   >
                     {option.label}

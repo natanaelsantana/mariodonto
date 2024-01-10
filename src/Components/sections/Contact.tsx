@@ -1,7 +1,20 @@
+import { useInView } from "react-intersection-observer";
+
 export const Contact = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Garante que a animação seja acionada apenas uma vez
+    threshold: 0.1, // Define a porcentagem visível do componente para acionar a animação
+  });
   return (
-    <section className="bg-contactBackGround w-full flex justify-center bg-cover bg-center bg-no-repeat ">
-      <div className="text-white lg:flex justify-around w-4/5 shadow-contactShadow bg-maribrown  rounded-[14vw] rounded-t-none lg:rounded-3x lg:rounded-t-none px-4 py-10 lg:px-12 lg:py-10">
+    <section
+      ref={ref}
+      className="bg-contactBackGround w-full flex justify-center bg-cover bg-center bg-no-repeat "
+    >
+      <div
+        className={`text-white lg:flex justify-around w-4/5 shadow-contactShadow bg-maribrown  rounded-[14vw] rounded-t-none lg:rounded-3x lg:rounded-t-none px-4 py-10 lg:px-12 lg:py-10 ${
+          inView ? "animated-slideDown" : ""
+        }`}
+      >
         <div className="flex gap-x-4 mb-8 lg:w-1/3">
           <span className="text-4xl font-etMoudles"></span>
           <div className="flex flex-col">
@@ -16,7 +29,7 @@ export const Contact = () => {
             </a>
             <div className="group relative text-center mt-10">
               <a
-                className="relative mt-6 text-md font-bold font-openSans bg-[#0c71c3] hover:bg-[#ecb00c] text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
+                className="relative mt-6 text-md font-bold font-openSans bg-[#0c71c3] hover:bg-mariYellow text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
                 href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
               >
                 Quero Agendar

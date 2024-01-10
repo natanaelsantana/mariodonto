@@ -7,6 +7,8 @@ import { ErrorPage } from "./Pages/ErrorPage";
 import { QuemSomos } from "./Pages/QuemSomos";
 import { InvisaLign } from "./Pages/InvisaLign";
 import { Tratamentos } from "./Pages/Tratamentos";
+import { Implante } from "./Pages/Implante";
+import { Facetas } from "./Pages/Facetas";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: "/tratamentos",
     element: <Tratamentos />,
+  },
+  {
+    path: "/implante-dentario",
+    element: <Implante />,
+  },
+  {
+    path: "/facetas-resina",
+    element: <Facetas />,
   },
 ]);
 
