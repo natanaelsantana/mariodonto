@@ -90,14 +90,12 @@ export const Facetas = () => {
           </div>
           <div className="py-3 w-full lg:w-1/2 lg:h-1/2 space-y-10 hidden lg:block">
             <img
-              src="./src/pics/Facetas-em-resina.jpg"
-              alt="Aparelho Invisalign, foto dra Mari"
-              className=" "
+              src="pics/Facetas-em-Resina.jpg"
+              alt="Sorriso, facetas em resina"
             />
             <img
-              src="./src/pics/facetas-em-resina-2.jpg"
-              alt="Aparelho Invisalign, foto dra Mari"
-              className=" "
+              src="pics/facetas-em-resina-2.jpg"
+              alt="Sorriso, facetas em resina"
             />
           </div>
         </div>

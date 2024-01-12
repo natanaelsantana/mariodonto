@@ -1,11 +1,11 @@
 import { Footer } from "../Components/Footer";
-import { ScheduleAssessment } from "../Components/Form";
 import { Header } from "../Components/header";
 import { Contact } from "../Components/sections/Contact";
 import { Team } from "../Components/sections/Team";
 import { Treatments } from "../Components/sections/Treatments";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
 import ButtonWithIcon from "../Components/Button";
+import Mariodonto from "/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg";
 
 export const Home = () => {
   return (
@@ -14,10 +14,7 @@ export const Home = () => {
 
       <section>
         <div className="h-full lg:relative w-screen ">
-          <img
-            src="./src/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg"
-            className="h-full z-10 w-full"
-          />
+          <img src={Mariodonto} className="h-full z-10 w-full" />
           <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 ">
             <h1 className="text-4xl lg:text-5xl font-normal font-cantataOne text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-tight animated-slideUp">
               Mari Odontologia
@@ -105,7 +102,7 @@ export const Home = () => {
       </section>
 
       <Team />
-      <ScheduleAssessment />
+
       <Contact />
 
       {/*Localizacão */}

@@ -1,7 +1,7 @@
 import { Booking } from "../Components/Booking";
 import { Footer } from "../Components/Footer";
 import { Header } from "../Components/header";
-import InvisaImg from "../pics/Tratamento-Invisalign.png";
+import InvisaImg from "/pics/Tratamento-Invisalign.png";
 
 export const InvisaLign = () => {
   return (
@@ -150,7 +150,7 @@ export const InvisaLign = () => {
             </div>
           </div>
           <img
-            src="./src/pics/Ortodontia-Invisalign-MariFoto.jpg"
+            src="pics/Ortodontia-Invisalign-MariFoto.jpg"
             alt="Aparelho Invisalign, foto dra Mari"
             className="px-10 py-3 w-full lg:w-1/2"
           />

@@ -10,7 +10,7 @@ export const Team = () => {
             <div className="flex-grow bg-white shadow-imageShadow rounded-lg ">
               <img
                 className="h-1/2 w-full rounded-t-lg shadow-imageShadow"
-                src=".\src\pics\Mari-Odontologia-em-Guaruja.jpg"
+                src="pics\Mari-Odontologia-em-Guaruja.jpg"
                 alt="Dra. Maria de Jesus Corrêa Mari"
               />
               <div className="text-center font-cantataOne p-6 text-lightGray font-normal leading-loose">
@@ -37,7 +37,7 @@ export const Team = () => {
             <div className="flex-grow bg-white shadow-imageShadow rounded-lg ">
               <img
                 className="h-1/2 w-full rounded-t-lg shadow-imageShadow"
-                src=".\src\pics\Dra-Carla-Nairana.jpg"
+                src="pics\Dra-Carla-Nairana.jpg"
                 alt="Dra. Maria de Jesus Corrêa Mari"
               />
               <div className="text-center font-cantataOne p-6 text-lightGray font-normal leading-loose">
@@ -56,7 +56,7 @@ export const Team = () => {
             <div className="flex-grow bg-white shadow-imageShadow rounded-lg ">
               <img
                 className="h-1/2 w-full rounded-t-lg shadow-imageShadow"
-                src=".\src\pics\Dr.-Edson-Gracia.jpg"
+                src="pics\Dr.-Edson-Gracia.jpg"
                 alt="Dra. Maria de Jesus Corrêa Mari"
               />
               <div className="text-center font-cantataOne p-6 text-lightGray font-normal leading-loose">

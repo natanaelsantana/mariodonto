@@ -92,7 +92,7 @@ export const Implante = () => {
             <ButtonWithIcon iconText="5" buttonText="Fale conosco" />
           </div>
           <img
-            src="./src/pics/Implante-Dentario-Mari-Odontologia-scaled.jpg"
+            src="pics/Implante-Dentario-Mari-Odontologia-scaled.jpg"
             alt="Aparelho Invisalign, foto dra Mari"
             className=" py-3 w-full lg:w-1/2"
           />

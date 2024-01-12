@@ -3,13 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     backgroundImage: {
-      whiteCircle: "url('./src/pics/dentist-19.png')",
-      contactBackGround: "url('./src/pics/dentist-04.png')",
-      quemSomosBackground: "url('./src/pics/dentist-23.jpg')",
-      equipamentosBackground: "url('./src/pics/dentist-15.jpg')",
-      implanteDentario:
-        "url('./src/pics/Como-funciona-o-implante-dentario-1.jpg')",
-      facetasResina: "url('./src/pics/Facetas-em-resina.jpg')",
+      whiteCircle: "url('pics/dentist-19.png')",
+      contactBackGround: "url('pics/dentist-04.png')",
+      quemSomosBackground: "url('pics/dentist-23.jpg')",
+      equipamentosBackground: "url('pics/dentist-15.jpg')",
+      implanteDentario: "url('pics/Como-funciona-o-implante-dentario-1.jpg')",
+      facetasResina: "url('pics/Facetas-em-resina.jpg')",
     },
     extend: {
       colors: {
@@ -38,6 +37,7 @@ export default {
       insideShadow: "inset 80px -100px 200px 80px #ffffff",
       invisalignShadow: "0px -100px 200px 0px #ffffff",
       headerShadow: "0 2px 5px rgba(0,0,0,.1)",
+      whatsappShadow: "1px 6px 24px 0 rgba(7,94,84,.24)",
     },
   },
   plugins: [],

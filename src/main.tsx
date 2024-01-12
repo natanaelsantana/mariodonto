@@ -9,6 +9,7 @@ import { InvisaLign } from "./Pages/InvisaLign";
 import { Tratamentos } from "./Pages/Tratamentos";
 import { Implante } from "./Pages/Implante";
 import { Facetas } from "./Pages/Facetas";
+import { WhatsappIcon } from "./Components/WhatsIcon";
 
 const router = createBrowserRouter([
   {
@@ -45,5 +46,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <WhatsappIcon />
   </React.StrictMode>
 );

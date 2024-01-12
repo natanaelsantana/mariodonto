@@ -8,32 +8,32 @@ export const TreatmentsIcons = () => {
   // Array de objetos com informações sobre cada tratamento
   const treatments = [
     {
-      imgSrc: "./src/pics/icons/dentist-icon-white-6.png",
+      imgSrc: "pics/icons/dentist-icon-white-6.png",
       alt: "Profilaxia",
       text: "Profilaxia",
     },
     {
-      imgSrc: "./src/pics/icons/dentist-icon-white-4.png",
+      imgSrc: "pics/icons/dentist-icon-white-4.png",
       alt: "Implantes",
       text: "Implantes",
     },
     {
-      imgSrc: "./src/pics/icons/dentist-icon-white-2.png",
+      imgSrc: "pics/icons/dentist-icon-white-2.png",
       alt: "Ortodontia",
       text: "Ortodontia",
     },
     {
-      imgSrc: "./src/pics/icons/dentist-icon-white-1.png",
+      imgSrc: "pics/icons/dentist-icon-white-1.png",
       alt: "Estética Dentária",
       text: "Estética Dentária",
     },
     {
-      imgSrc: "./src/pics/icons/dentist-icon-white-5.png",
+      imgSrc: "pics/icons/dentist-icon-white-5.png",
       alt: "Clareamento",
       text: "Clareamento",
     },
     {
-      imgSrc: "./src/pics/icons/dentist-icon-white-3.png",
+      imgSrc: "pics/icons/dentist-icon-white-3.png",
       alt: "Preenchimento Labial",
       text: "Preenchimento Labial",
     },
