@@ -2,15 +2,30 @@ import { Booking } from "../Components/Booking";
 import { Header } from "../Components/header";
 import { Footer } from "../Components/Footer";
 import ButtonWithIcon from "../Components/Button";
+import { Helmet } from "react-helmet";
 
 export const Implante = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="description"
+          content="Implante dentário, seu sorriso mais belo!"
+        />
+        <meta
+          name="keywords"
+          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial, implante dentário"
+        />
+      </Helmet>
       <Header />
 
       {/*Introduction*/}
       <section className="relative flex h-full justify-center mb-10 ">
-        <div className="absolute inset-0 bg-implanteDentario bg-cover bg-right lg:bg-center opacity-60"></div>
+        <div
+          className="absolute inset-0 bg-implanteDentario bg-cover bg-right lg:bg-center opacity-60"
+          role="img"
+          aria-label="Implante dentário"
+        ></div>
         <div className="relative w-full bg-invisalign-gradient px-10 py-14 lg:py-28  lg:px-48 justify-center">
           <div className="text-left">
             <h1 className="text-3xl font-bold font-cantataOne text-maribrown text-center mb-6">
@@ -92,7 +107,7 @@ export const Implante = () => {
             <ButtonWithIcon iconText="5" buttonText="Fale conosco" />
           </div>
           <img
-            src="pics/Implante-Dentario-Mari-Odontologia-scaled.jpg"
+            src="pics/Implante-Dentario-Mari-Odontologia-scaled.webp"
             alt="Aparelho Invisalign, foto dra Mari"
             className=" py-3 w-full lg:w-1/2"
           />

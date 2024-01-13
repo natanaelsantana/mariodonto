@@ -4,10 +4,21 @@ import { Header } from "../Components/header";
 import { Contact } from "../Components/sections/Contact";
 import { Treatments } from "../Components/sections/Treatments";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
+import { Helmet } from "react-helmet";
 
 export const Tratamentos = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="description"
+          content="Encontre o tratamento ideal para você!"
+        />
+        <meta
+          name="keywords"
+          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial, profilaxia, invisaLign"
+        />
+      </Helmet>
       <Header />
 
       <section className=" bg-equipamentosBackground bg-cover bg-center w-screen shadow-insideShadow ">

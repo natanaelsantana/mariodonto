@@ -23,7 +23,7 @@ export const Booking = () => {
             className="relative text-base font-bold font-openSans border-white border-4 hover:bg-mariYellow hover:border-mariYellow text-white py-3 px-3 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
             href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
             target="_blank"
-            rel="noopener noreferrer"
+            rel="whatsapp button"
           >
             Converse por Whatsapp
             <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
@@ -33,7 +33,10 @@ export const Booking = () => {
         </div>
       </div>
       <div className="flex gap-x-2 mt-10">
-        <a href="https://www.facebook.com/ConsultorioOdontologicoMariaDeJesusCMari">
+        <a
+          href="https://www.facebook.com/ConsultorioOdontologicoMariaDeJesusCMari"
+          aria-label="Perfil do consulório no facebook"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -52,7 +55,10 @@ export const Booking = () => {
             ></path>
           </svg>
         </a>
-        <a href="https://www.instagram.com/mariodontologia/">
+        <a
+          href="https://www.instagram.com/mariodontologia/"
+          aria-label="perfil do consultório no instagram"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -63,18 +69,18 @@ export const Booking = () => {
           >
             <g
               fill="none"
-              fill-rule="nonzero"
+              fillRule="nonzero"
               stroke="none"
-              stroke-width="1"
-              stroke-linecap="butt"
-              stroke-linejoin="miter"
-              stroke-miterlimit="10"
-              stroke-dasharray=""
-              stroke-dashoffset="0"
-              font-family="none"
-              font-weight="none"
-              font-size="none"
-              text-anchor="none"
+              strokeWidth="1"
+              strokeLinecap="butt"
+              strokeLinejoin="miter"
+              strokeMiterlimit="10"
+              strokeDasharray=""
+              strokeDashoffset="0"
+              fontFamily="none"
+              fontWeight="none"
+              fontSize="none"
+              textAnchor="none"
             >
               <g transform="scale(5.33333,5.33333)">
                 <path

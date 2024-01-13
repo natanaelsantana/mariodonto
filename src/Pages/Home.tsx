@@ -5,16 +5,32 @@ import { Team } from "../Components/sections/Team";
 import { Treatments } from "../Components/sections/Treatments";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
 import ButtonWithIcon from "../Components/Button";
-import Mariodonto from "/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.jpg";
+import Mariodonto from "/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.webp";
+import { Helmet } from "react-helmet";
 
 export const Home = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="description"
+          content="Mari odontologia. O seu sorriso em boas mãos!"
+        />
+        <meta
+          name="keywords"
+          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial,"
+        />
+      </Helmet>
+
       <Header />
 
       <section>
         <div className="h-full lg:relative w-screen ">
-          <img src={Mariodonto} className="h-full z-10 w-full" />
+          <img
+            src={Mariodonto}
+            className="h-full z-10 w-full"
+            alt="Consultório Dra. Mari"
+          />
           <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 ">
             <h1 className="text-4xl lg:text-5xl font-normal font-cantataOne text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-tight animated-slideUp">
               Mari Odontologia
@@ -33,7 +49,7 @@ export const Home = () => {
           background: "linear-gradient(180deg, #ffffff 0%, #eff1f4 100%)",
         }}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 bg-whiteCircle bg-cover bg-center bg-no-repeat py-24 lg:p-24   ">
+        <div className="grid grid-cols-1 md:grid-cols-2 bg-whiteCircle bg-cover bg-center bg-no-repeat py-24 lg:p-24">
           <div className="px-10 py-2 flex justify-center">
             <h2 className="text-2xl font-bold "></h2>
             <p className="text-gray-500 text-left break-words text-lg font-openSans leading-loose">
@@ -115,6 +131,7 @@ export const Home = () => {
               width="600"
               height="450"
               loading="lazy"
+              title="Consultório Dra. Mari"
             ></iframe>
           </div>
           <div className="flex flex-col items-center">
@@ -124,6 +141,7 @@ export const Home = () => {
               width="600"
               height="450"
               loading="lazy"
+              title="consultório dra Mari"
             ></iframe>
           </div>
         </div>

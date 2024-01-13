@@ -63,7 +63,7 @@ export const Header: React.FC = () => {
     >
       <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30">
         <img
-          src="pics/Logo-Mari-Odontologia-Guaruja.fw_.png"
+          src="pics\logo-mari-odontologia-guaruja-fw.webp"
           alt="Mari Odonto Logo"
           className={`transition-all duration-500 `}
           style={{ height: isMobile ? "12vw" : `${imageSize}px` }}

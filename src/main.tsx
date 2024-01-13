@@ -10,6 +10,7 @@ import { Tratamentos } from "./Pages/Tratamentos";
 import { Implante } from "./Pages/Implante";
 import { Facetas } from "./Pages/Facetas";
 import { WhatsappIcon } from "./Components/WhatsIcon";
+import { Helmet } from "react-helmet";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,11 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
+    <Helmet>
+      <title>
+        Mari Odontologia | Dentista e Tratamento Ortodontista em Guarujá
+      </title>
+    </Helmet>
     <RouterProvider router={router} />
     <WhatsappIcon />
   </React.StrictMode>

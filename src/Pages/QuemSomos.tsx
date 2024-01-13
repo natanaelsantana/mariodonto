@@ -4,14 +4,33 @@ import { Team } from "../Components/sections/Team";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
 import { Contact } from "../Components/sections/Contact";
 import ButtonWithIcon from "../Components/Button";
+import { Helmet } from "react-helmet";
 
 export const QuemSomos = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="description"
+          content="Conheça nossa equipe de profissionais!"
+        />
+        <meta
+          name="keywords"
+          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial,"
+        />
+      </Helmet>
       <Header />
 
-      <section className=" bg-maribrown w-screen ">
-        <div className="bg-quemSomosBackground bg-cover bg-right bg-no-repeat h-full rounded-bl-[30px] lg:rounded-bl-[10vw] ">
+      <section
+        className=" bg-maribrown w-screen "
+        role="img"
+        aria-label="Rapaz sorrindo ao fundo"
+      >
+        <div
+          className="bg-quemSomosBackground bg-cover bg-right bg-no-repeat h-full rounded-bl-[30px] lg:rounded-bl-[10vw] "
+          role="img"
+          aria-label="Rapaz sorrindo"
+        >
           <div className="relative h-full w-screen bg-radial-gradient py-10 px-10 lg:pb-10 rounded-bl-[30px] lg:p-32 lg:pt-50 lg:rounded-bl-[10vw] lg:flex shadow-imageShadow ">
             <div className="w-full lg:w-2/3 lg:flex-col lg:justify-center ">
               <div className="text-left">
@@ -27,7 +46,7 @@ export const QuemSomos = () => {
                   className="relative mt-6 text-md font-bold font-openSans bg-maribrown hover:bg-mariYellow text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
                   href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="ir ao whatsapp"
                 >
                   Agende uma avaliação
                   <span className=" text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">

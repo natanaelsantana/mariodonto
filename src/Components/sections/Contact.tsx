@@ -23,6 +23,7 @@ export const Contact = () => {
             </h4>
             <a
               className="text-white mb-4 text-sm"
+              aria-label="Contato do whatsapp"
               href="https://api.whatsapp.com/send?phone=551333822412"
             >
               (13) 3382-2412
@@ -30,6 +31,7 @@ export const Contact = () => {
             <div className="group relative text-center mt-10">
               <a
                 className="relative mt-6 text-md font-bold font-openSans bg-[#0c71c3] hover:bg-mariYellow text-white py-3 px-6 rounded-full hover:pr-10 hover:pl-4 overflow-hidden transition-all duration-300 ease-linear delay-0 group"
+                aria-label="Ir para o whatsapp"
                 href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
               >
                 Quero Agendar
@@ -78,7 +80,10 @@ export const Contact = () => {
                 Redes Sociais
               </h4>
               <div className="flex gap-x-2">
-                <a href="https://www.facebook.com/ConsultorioOdontologicoMariaDeJesusCMari">
+                <a
+                  aria-label="Perfil do consultório no facebook"
+                  href="https://www.facebook.com/ConsultorioOdontologicoMariaDeJesusCMari"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -97,7 +102,10 @@ export const Contact = () => {
                     ></path>
                   </svg>
                 </a>
-                <a href="https://www.instagram.com/mariodontologia/">
+                <a
+                  aria-label="perfil do consultório no instagram"
+                  href="https://www.instagram.com/mariodontologia/"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -108,18 +116,18 @@ export const Contact = () => {
                   >
                     <g
                       fill="none"
-                      fill-rule="nonzero"
+                      fillRule="nonzero"
                       stroke="none"
-                      stroke-width="1"
-                      stroke-linecap="butt"
-                      stroke-linejoin="miter"
-                      stroke-miterlimit="10"
-                      stroke-dasharray=""
-                      stroke-dashoffset="0"
-                      font-family="none"
-                      font-weight="none"
-                      font-size="none"
-                      text-anchor="none"
+                      strokeWidth="1"
+                      strokeLinecap="butt"
+                      strokeLinejoin="miter"
+                      strokeMiterlimit="10"
+                      strokeDasharray=""
+                      strokeDashoffset="0"
+                      fontFamily="none"
+                      fontWeight="none"
+                      fontSize="none"
+                      textAnchor="none"
                     >
                       <g transform="scale(5.33333,5.33333)">
                         <path

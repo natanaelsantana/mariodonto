@@ -16,7 +16,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/Profilaxia-Mari-Odontologia.jpg"
+                    src="pics/Profilaxia-Mari-Odontologia.webp"
                     alt="Profilaxia"
                     title=""
                   />
@@ -66,7 +66,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/O-Implante-Dentario.jpg"
+                    src="pics/O-Implante-Dentario.webp"
                     alt="Implante Dentário"
                   />
                 </div>
@@ -108,7 +108,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/Tratamento-Ortodontico-Mari-Odontologia.jpg"
+                    src="pics/Tratamento-Ortodontico-Mari-Odontologia.webp"
                     alt="Tratamento Ortodôntico"
                   />
                 </div>
@@ -166,7 +166,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/Facetas-de-Resina-Mari-Odontologia-scaled.jpg"
+                    src="pics\Facetas-de-Resina-Mari-Odontologia-scaled_1_11zon.webp"
                     alt="Facetas de Resina"
                   />
                 </div>
@@ -204,7 +204,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/Clareamento-Dental.jpg"
+                    src="pics/Clareamento-Dental.webp"
                     alt="Clareamento Dental"
                     title=""
                   />
@@ -246,7 +246,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/Harmonizacao-Oro-Facial.jpg"
+                    src="pics/Harmonizacao-Oro-Facial.webp"
                     alt="Preenchimento Labial"
                     title=""
                   />
@@ -281,7 +281,7 @@ export const Treatments = () => {
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
                     }`}
-                    src="pics/Propaganda-Aparelho-Invisalign.png"
+                    src="pics/propaganda-aparelho-invisalign.webp"
                     alt="Aparelho Invisalign"
                     title=""
                   />

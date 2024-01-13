@@ -8,32 +8,32 @@ export const TreatmentsIcons = () => {
   // Array de objetos com informações sobre cada tratamento
   const treatments = [
     {
-      imgSrc: "pics/icons/dentist-icon-white-6.png",
+      imgSrc: "pics/icons/dentist-icon-white-6.webp",
       alt: "Profilaxia",
       text: "Profilaxia",
     },
     {
-      imgSrc: "pics/icons/dentist-icon-white-4.png",
+      imgSrc: "pics/icons/dentist-icon-white-4.webp",
       alt: "Implantes",
       text: "Implantes",
     },
     {
-      imgSrc: "pics/icons/dentist-icon-white-2.png",
+      imgSrc: "pics/icons/dentist-icon-white-2.webp",
       alt: "Ortodontia",
       text: "Ortodontia",
     },
     {
-      imgSrc: "pics/icons/dentist-icon-white-1.png",
+      imgSrc: "pics/icons/dentist-icon-white-1.webp",
       alt: "Estética Dentária",
       text: "Estética Dentária",
     },
     {
-      imgSrc: "pics/icons/dentist-icon-white-5.png",
+      imgSrc: "pics/icons/dentist-icon-white-5.webp",
       alt: "Clareamento",
       text: "Clareamento",
     },
     {
-      imgSrc: "pics/icons/dentist-icon-white-3.png",
+      imgSrc: "pics/icons/dentist-icon-white-3.webp",
       alt: "Preenchimento Labial",
       text: "Preenchimento Labial",
     },
@@ -52,7 +52,7 @@ export const TreatmentsIcons = () => {
               alt={treatment.alt}
               className={`mx-auto mb-8 ${inView ? "animated-slideDown" : ""}`}
             />
-            <h4 className="mb-2 text-white">{treatment.text}</h4>
+            <h3 className="mb-2 text-white">{treatment.text}</h3>
           </div>
         ))}
       </div>

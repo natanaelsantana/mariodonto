@@ -2,10 +2,21 @@ import { Booking } from "../Components/Booking";
 import { Header } from "../Components/header";
 import { Footer } from "../Components/Footer";
 import ButtonWithIcon from "../Components/Button";
+import { Helmet } from "react-helmet";
 
 export const Facetas = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="description"
+          content="Facetas em Resina, seu sorriso mais belo!"
+        />
+        <meta
+          name="keywords"
+          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial,"
+        />
+      </Helmet>
       <Header />
 
       {/*Introduction*/}
@@ -90,11 +101,11 @@ export const Facetas = () => {
           </div>
           <div className="py-3 w-full lg:w-1/2 lg:h-1/2 space-y-10 hidden lg:block">
             <img
-              src="pics/Facetas-em-Resina.jpg"
+              src="pics/Facetas-em-Resina_2_11zon.webp"
               alt="Sorriso, facetas em resina"
             />
             <img
-              src="pics/facetas-em-resina-2.jpg"
+              src="pics\facetas-em-resina-2_3_11zon.webp"
               alt="Sorriso, facetas em resina"
             />
           </div>

@@ -3,12 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     backgroundImage: {
-      whiteCircle: "url('pics/dentist-19.png')",
-      contactBackGround: "url('pics/dentist-04.png')",
-      quemSomosBackground: "url('pics/dentist-23.jpg')",
-      equipamentosBackground: "url('pics/dentist-15.jpg')",
-      implanteDentario: "url('pics/Como-funciona-o-implante-dentario-1.jpg')",
-      facetasResina: "url('pics/Facetas-em-resina.jpg')",
+      whiteCircle: "url('../pics/dentist-19.webp')",
+      contactBackGround: "url('../pics/dentist-04.webp')",
+      quemSomosBackground: "url('../pics/dentist-23.webp')",
+      equipamentosBackground: "url('../pics/dentist-15.webp')",
+      implanteDentario:
+        "url('../pics/Como-funciona-o-implante-dentario-1.webp')",
+      facetasResina: "url('../pics/Facetas-em-Resina_2_11zon.webp')",
     },
     extend: {
       colors: {
