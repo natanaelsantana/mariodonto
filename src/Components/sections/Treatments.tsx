@@ -11,7 +11,7 @@ export const Treatments = () => {
               <div className=" lg:w-3/5 lg:mr-16">
                 <div className="mb-8">
                   <img
-                    className={`w-full rounded-3xl shadow-imageShadow ${
+                    className={`w-full h-auto rounded-3xl shadow-imageShadow ${
                       inView
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
@@ -61,7 +61,7 @@ export const Treatments = () => {
               <div className=" lg:w-3/5 lg:mr-16">
                 <div className="mb-8">
                   <img
-                    className={`w-full rounded-3xl shadow-imageShadow ${
+                    className={`w-full h-auto rounded-3xl shadow-imageShadow ${
                       inView
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
@@ -78,7 +78,7 @@ export const Treatments = () => {
                   <h2 className="text-2xl font-normal text-maribrown font-cantataOne pb-4 lg:text-4xl">
                     Implante Dentário
                   </h2>
-                  <p className="text-lightGray leading-loose pb-4 text-left">
+                  <p className="text-lightGray leading-loose pb-10 text-left">
                     Todo dente perdido deve ser substituído, para não provocar
                     danos maiores à sua função mastigatória e estética. E o
                     implante dentário é o que de melhor é oferecido, na
@@ -87,7 +87,7 @@ export const Treatments = () => {
                     <strong>Nunca é tarde para sorrir!</strong>
                   </p>
 
-                  <ButtonWithIcon buttonText="Saiba mais" iconText="5" />
+                  <ButtonWithIcon buttonText="Saiba mais" />
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ export const Treatments = () => {
               <div className=" lg:w-3/5 lg:mr-16">
                 <div className="mb-8">
                   <img
-                    className={`w-full rounded-3xl shadow-imageShadow ${
+                    className={`w-full h-auto rounded-3xl shadow-imageShadow ${
                       inView
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
@@ -199,7 +199,7 @@ export const Treatments = () => {
               <div className=" lg:w-3/5 lg:mr-16">
                 <div className="mb-8">
                   <img
-                    className={`w-full rounded-3xl shadow-imageShadow ${
+                    className={`w-full h-auto rounded-3xl shadow-imageShadow ${
                       inView
                         ? "scale-100 ease-in opacity-100 duration-700"
                         : "scale-50 opacity-0"
@@ -310,10 +310,7 @@ export const Treatments = () => {
                     </li>
                     <li>Menos quebras e emergências.</li>
                   </ul>
-                  <ButtonWithIcon
-                    buttonText="Agende uma consulta"
-                    iconText="5"
-                  />
+                  <ButtonWithIcon buttonText="Agende uma consulta" />
                 </div>
               </div>
             </div>

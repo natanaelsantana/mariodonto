@@ -41,7 +41,7 @@ export const Implante = () => {
               <strong>Fale conosco e agende sua consulta</strong>
             </p>
           </div>
-          <ButtonWithIcon iconText="5" buttonText="Fale conosco" />
+          <ButtonWithIcon buttonText="Fale conosco" />
         </div>
       </section>
 
@@ -104,7 +104,7 @@ export const Implante = () => {
               </ul>
             </div>
 
-            <ButtonWithIcon iconText="5" buttonText="Fale conosco" />
+            <ButtonWithIcon buttonText="Fale conosco" />
           </div>
           <img
             src="pics/Implante-Dentario-Mari-Odontologia-scaled.webp"

@@ -16,7 +16,7 @@ export const Contact = () => {
         }`}
       >
         <div className="flex gap-x-4 mb-8 lg:w-1/3">
-          <span className="text-4xl font-etMoudles"></span>
+          <span className="material-symbols-outlined text-4xl">call</span>
           <div className="flex flex-col">
             <h4 className="mt-2 mb-4 text-lg font-normal font-cantataOne ">
               Agende uma avaliação
@@ -44,7 +44,7 @@ export const Contact = () => {
         </div>
 
         <div className="flex gap-x-4 mb-8 lg:w-1/3">
-          <span className="text-4xl font-etMoudles"></span>
+          <span className="material-symbols-outlined text-4xl">schedule</span>
           <div className="flex-col font-openSans text-sm leading-loose ">
             <h4 className="mt-2 text-xl font-normal font-cantataOne mb-2">
               Nossa Localização
@@ -60,7 +60,7 @@ export const Contact = () => {
 
         <div className="flex flex-col lg:w-1/3 ">
           <div className="flex gap-x-4 mb-8">
-            <span className="text-4xl font-etMoudles"></span>
+            <span className="material-symbols-outlined text-4xl">group</span>
             <div className="flex flex-col ">
               <h4 className="mt-2 text-xl font-normal font-cantataOne mb-2">
                 Nossos Horários
@@ -74,7 +74,7 @@ export const Contact = () => {
           </div>
 
           <div className="flex gap-x-4">
-            <span className="text-4xl font-etMoudles"></span>
+            <span className="material-symbols-outlined text-4xl">group</span>
             <div className="flex flex-col">
               <h4 className="mt-2 mb-4 text-xl font-normal font-cantataOne">
                 Redes Sociais

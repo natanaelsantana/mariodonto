@@ -25,33 +25,32 @@ export const Home = () => {
       <Header />
 
       <section>
-        <div className="h-full lg:relative w-screen ">
+        <div className=" lg:relative w-screen lg:h-[35vw]">
           <img
             src={Mariodonto}
             className="h-full z-10 w-full"
             alt="Consultório Dra. Mari"
           />
-          <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2 lg:mt-12 ">
+          <div className="p-14 flex-col text-center z-5 lg:absolute lg:top-1/2 lg:left-0 lg:right-0 lg:ml-auto lg:mr-auto lg:transform lg:-translate-y-1/2  ">
             <h1 className="text-4xl lg:text-5xl font-normal font-cantataOne text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-tight animated-slideUp">
               Mari Odontologia
             </h1>
-            <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-maribrown lg:text-white lg:text-shadow pb-6 leading-normal animated-slideUp">
+            <h2 className="text-2xl lg:text-3xl font-openSans font-normal text-center text-maribrown lg:text-white lg:text-shadow pb-6 lg:mb-10 leading-normal animated-slideUp">
               O seu Sorriso em boas mãos!
             </h2>
-            <ButtonWithIcon buttonText="Agende sua visita" iconText="5" />
+            <ButtonWithIcon buttonText="Agende sua visita" />
           </div>
         </div>
       </section>
 
       <section
-        className="relative bg-white"
+        className=" bg-white py-20 lg:py-0"
         style={{
           background: "linear-gradient(180deg, #ffffff 0%, #eff1f4 100%)",
         }}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 bg-whiteCircle bg-cover bg-center bg-no-repeat py-24 lg:p-24">
-          <div className="px-10 py-2 flex justify-center">
-            <h2 className="text-2xl font-bold "></h2>
+        <div className="flex flex-col lg:flex-row items-center bg-whiteCircle bg-cover bg-center bg-no-repeat lg:px-32 lg:py-16 w-full">
+          <div className="px-10 py-2 flex justify-center mb-16 lg:mb-0 lg:w-2/3">
             <p className="text-gray-500 text-left break-words text-lg font-openSans leading-loose">
               “Nossa Filosofia é oferecer aos nossos pacientes uma Odontologia
               de Qualidade, com uma equipe de Especialistas de Excelência.
@@ -61,7 +60,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <ButtonWithIcon buttonText="Conversar por Whatsapp" iconText="5" />
+          <ButtonWithIcon buttonText="Conversar por Whatsapp" />
         </div>
       </section>
 

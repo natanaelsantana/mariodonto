@@ -40,7 +40,7 @@ export const Tratamentos = () => {
                 garantir sua saúde.
               </p>
             </div>
-            <ButtonWithIcon buttonText="Agende uma avaliação" iconText="5" />
+            <ButtonWithIcon buttonText="Agende uma avaliação" />
           </div>
         </div>
       </section>

@@ -49,8 +49,8 @@ export const QuemSomos = () => {
                   rel="ir ao whatsapp"
                 >
                   Agende uma avaliação
-                  <span className=" text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-                    5
+                  <span className="material-symbols-outlined text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl transition-all duration-300 ease-linear delay-0">
+                    chevron_right
                   </span>
                 </a>
               </div>
@@ -62,7 +62,7 @@ export const QuemSomos = () => {
       <section className="bg-equipamentosBackground bg-cover bg-center w-screen shadow-insideShadow ">
         <div className="flex justify-center bg-linear-gradient  bg-cover py-14 px-10 lg:px-32 shadow-insideShadow">
           <div className="w-full md:w-full lg:w-full  ">
-            <div className="text-center">
+            <div className="text-center mb-10">
               <h2 className="text-2xl font-medium font-cantataOne text-maribrown mb-6 leading-normal">
                 Especialista em Ortodontia e Ortopedia Funcional dos Maxilares
               </h2>
@@ -74,7 +74,7 @@ export const QuemSomos = () => {
                 consiga Sorrir com mais Segurança.
               </p>
             </div>
-            <ButtonWithIcon buttonText="Fale conosco" iconText="5" />
+            <ButtonWithIcon buttonText="Fale conosco" />
           </div>
         </div>
       </section>

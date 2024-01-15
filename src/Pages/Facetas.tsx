@@ -39,7 +39,7 @@ export const Facetas = () => {
               </strong>
             </p>
           </div>
-          <ButtonWithIcon iconText="5" buttonText="Agende sua Consulta" />
+          <ButtonWithIcon buttonText="Agende sua Consulta" />
         </div>
       </section>
 
@@ -129,10 +129,7 @@ export const Facetas = () => {
             </p>
           </div>
 
-          <ButtonWithIcon
-            iconText="5"
-            buttonText="Quero cuidar da minha saúde"
-          />
+          <ButtonWithIcon buttonText="Quero cuidar da minha saúde" />
         </div>
       </section>
 

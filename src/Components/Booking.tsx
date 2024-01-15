@@ -26,8 +26,8 @@ export const Booking = () => {
             rel="whatsapp button"
           >
             Converse por Whatsapp
-            <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-              5
+            <span className="material-symbols-outlined text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl transition-all duration-300 ease-linear delay-0">
+              chevron_right
             </span>
           </a>
         </div>
