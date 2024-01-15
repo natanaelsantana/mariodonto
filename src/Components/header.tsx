@@ -57,18 +57,19 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center relative lg:sticky z-30  ${
+      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center sticky z-30  ${
         scrollPosition > 50 ? "lg:drop-shadow-md" : "border-b"
       }`}
     >
       <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30">
-        <img
-          src="pics\logo-mari-odontologia-guaruja-fw.webp"
-          alt="Mari Odonto Logo"
-          className={`transition-all duration-500 `}
-          style={{ height: isMobile ? "12vw" : `${imageSize}px` }}
-        />
-
+        <Link to={"/"}>
+          <img
+            src="pics\logo-mari-odontologia-guaruja-fw.webp"
+            alt="Mari Odonto Logo"
+            className={`transition-all duration-500 `}
+            style={{ height: isMobile ? "12vw" : `${imageSize}px` }}
+          />
+        </Link>
         <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
           <svg
             className="w-6 h-6"
@@ -87,10 +88,8 @@ export const Header: React.FC = () => {
         </div>
 
         <nav
-          className={`flex-col lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-maribrown border-t-4 space-y-4 lg:border-none right-0 left-0 bg-white p-4 transform opacity-0 lg:opacity-100  scale-0${
-            isMenuOpen
-              ? "shadow-headerShadow transition ease-out duration-500  transform opacity-100 scale-100"
-              : "hidden "
+          className={`block lg:flex w-4/5 md:w-4/5 lg:w-full ml-10 top-full lg:m-0 absolute lg:relative border-maribrown border-t-4 space-y-4 lg:border-none right-0 left-0 bg-white p-4 ${
+            isMenuOpen ? "shadow-headerShadow  " : "hidden "
           }`}
         >
           <ul className="block lg:flex justify-end items-center w-full space-x-0 sm:items-stretch lg:space-x-8 ">

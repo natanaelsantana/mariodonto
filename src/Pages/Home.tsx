@@ -121,23 +121,21 @@ export const Home = () => {
       <Contact />
 
       {/*Localizacão */}
-      <section className=" w-full flex flex-col lg:flex justify-center bg-white px-20 py-10">
+      <section className=" w-full flex flex-col lg:flex justify-center bg-white lg:px-20 py-10">
         <div className="flex flex-col lg:flex-row justify-around mt-4 gap-x-10">
-          <div className="flex flex-col lg:flex items-center">
+          <div className="flex flex-col lg:flex items-center w-full">
             <iframe
-              className="border-0"
+              className="border-0 w-full"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14581.711635280488!2d-46.1956198!3d-23.9806621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec45bbbe8359cb7a!2sMari%20Odontologia!5e0!3m2!1spt-BR!2sbr!4v1645985890091!5m2!1spt-BR!2sbr"
-              width="600"
               height="450"
               loading="lazy"
               title="Consultório Dra. Mari"
             ></iframe>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center w-full">
             <iframe
-              className="border-0"
+              className="border-0 w-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.5127171224397!2d-46.25462187342615!3d-23.994878935121672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1fe2e374cbd39%3A0x72c7031137627d25!2sR.%20Comendador%20Vicente%20Gagliano%2C%2031%20-%20Sala%2033%20-%20Centro%2C%20Guaruj%C3%A1%20-%20SP%2C%2011410-200!5e0!3m2!1spt-BR!2sbr!4v1645988608236!5m2!1spt-BR!2sbr"
-              width="600"
               height="450"
               loading="lazy"
               title="consultório dra Mari"
