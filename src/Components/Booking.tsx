@@ -26,9 +26,15 @@ export const Booking = () => {
             rel="whatsapp button"
           >
             Converse por Whatsapp
-            <span className="material-symbols-outlined text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl transition-all duration-300 ease-linear delay-0">
-              chevron_right
-            </span>
+            <svg
+              className="fill-current text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 transition-all duration-300 ease-linear delay-0"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+            </svg>
           </a>
         </div>
       </div>

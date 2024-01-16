@@ -16,7 +16,15 @@ export const Contact = () => {
         }`}
       >
         <div className="flex gap-x-4 mb-8 lg:w-1/3">
-          <span className="material-symbols-outlined text-4xl">call</span>
+          <svg
+            className="text-white fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            height="36"
+            viewBox="0 -960 960 960"
+            width="36"
+          >
+            <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+          </svg>
           <div className="flex flex-col">
             <h4 className="mt-2 mb-4 text-lg font-normal font-cantataOne ">
               Agende uma avaliação
@@ -35,16 +43,30 @@ export const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=551333822412&amp;text=Ol%C3%A1%20estou%20no%20site%20e%20gostaria%20de%20saber..."
               >
                 Quero Agendar
-                <span className="text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl font-etMoudles transition-all duration-300 ease-linear delay-0">
-                  5
-                </span>
+                <svg
+                  className="fill-current text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 transition-all duration-300 ease-linear delay-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 -960 960 960"
+                  width="24"
+                >
+                  <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                </svg>
               </a>
             </div>
           </div>
         </div>
 
         <div className="flex gap-x-4 mb-8 lg:w-1/3">
-          <span className="material-symbols-outlined text-4xl">schedule</span>
+          <svg
+            className="fill-current text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            height="38"
+            viewBox="0 -960 960 960"
+            width="52"
+          >
+            <path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z" />
+          </svg>
           <div className="flex-col font-openSans text-sm leading-loose ">
             <h4 className="mt-2 text-xl font-normal font-cantataOne mb-2">
               Nossa Localização
@@ -60,7 +82,15 @@ export const Contact = () => {
 
         <div className="flex flex-col lg:w-1/3 ">
           <div className="flex gap-x-4 mb-8">
-            <span className="material-symbols-outlined text-4xl">group</span>
+            <svg
+              className="fill-current text-white t"
+              xmlns="http://www.w3.org/2000/svg"
+              height="36"
+              viewBox="0 -960 960 960"
+              width="36"
+            >
+              <path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z" />
+            </svg>
             <div className="flex flex-col ">
               <h4 className="mt-2 text-xl font-normal font-cantataOne mb-2">
                 Nossos Horários
@@ -74,7 +104,15 @@ export const Contact = () => {
           </div>
 
           <div className="flex gap-x-4">
-            <span className="material-symbols-outlined text-4xl">group</span>
+            <svg
+              className="fill-current text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              height="36"
+              viewBox="0 -960 960 960"
+              width="36"
+            >
+              <path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z" />
+            </svg>
             <div className="flex flex-col">
               <h4 className="mt-2 mb-4 text-xl font-normal font-cantataOne">
                 Redes Sociais

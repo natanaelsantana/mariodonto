@@ -290,16 +290,16 @@ export const Treatments = () => {
               <div className=" lg:w-2/5">
                 <div className="text-left">
                   <h2 className="text-2xl font-normal text-maribrown font-cantataOne pb-4 lg:text-4xl lg:leading-normal">
-                    O APARELHO INVISALIGN
+                    O Aparelho Invisalign
                   </h2>
                   <p className="text-lightGray leading-loose pb-4 text-left">
                     O sorriso dos seus sonhos de forma rápida, confortável e
                     estética.
                   </p>
-                  <p className="text-lightGray leading-loose pb-4 text-left">
+                  <p className="text-lightGray leading-loose text-left">
                     <strong>Vantagens do tratamento com Invisalign:</strong>
                   </p>
-                  <ul className="text-lightGray leading-loose pb-4 text-left">
+                  <ul className="text-lightGray leading-loose pb-8 pl-4 text-left list-disc">
                     <li>É mais rápido e com resultado previsível.</li>
                     <li>
                       Pode ser removido para se alimentar e higienizar os

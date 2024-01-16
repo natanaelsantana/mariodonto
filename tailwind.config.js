@@ -29,7 +29,6 @@ export default {
     fontFamily: {
       openSans: ["Open Sans", "sans-serif"],
       cantataOne: ["Cantata One", "serif"],
-      etMoudles: ["ETmoudles"],
     },
     boxShadow: {
       imageShadow: "0px 40px 60px 0px rgba(0,64,135,0.06)",

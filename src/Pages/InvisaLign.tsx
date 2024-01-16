@@ -3,6 +3,8 @@ import { Footer } from "../Components/Footer";
 import { Header } from "../Components/header";
 import InvisaImg from "/pics/tratamento-invisalign.webp";
 import { Helmet } from "react-helmet";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 export const InvisaLign = () => {
   return (
@@ -14,7 +16,7 @@ export const InvisaLign = () => {
         />
         <meta
           name="keywords"
-          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial,"
+          content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial"
         />
       </Helmet>
       <Header />
@@ -53,9 +55,15 @@ export const InvisaLign = () => {
               rel="ir ao whatsapp"
             >
               Fale conosco e agende sua consulta
-              <span className="material-symbols-outlined text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl transition-all duration-300 ease-linear delay-0">
-                chevron_right
-              </span>
+              <svg
+                className="fill-current text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 transition-all duration-300 ease-linear delay-0"
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -65,12 +73,17 @@ export const InvisaLign = () => {
       <section className="w-full h-full pt-5 z-10 flex flex-col ">
         <div className="bg-white shadow-imageShadow h-full text-xl text-lightGray leading-loose w-4/5 self-center rounded-3xl pb-10">
           <div className="rounded-t-3xl bg-black overflow-hidden ">
-            <iframe
-              className="w-full h-full lg:h-auto lg:min-h-[500px] rounded-t-3xl"
-              src="https://www.youtube.com/embed/wc0M5B7hzFc?si=UTUadKdzvtp65B7E"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            ></iframe>
+            <LiteYouTubeEmbed
+              id="wc0M5B7hzFc"
+              title="YouTube video player invisalign"
+              adNetwork={true}
+              params=""
+              playlist={false}
+              playlistCoverId="wc0M5B7hzFc"
+              poster="hqdefault"
+              noCookie={true}
+              webp={true}
+            />
           </div>
           <div className="px-10 py-5 mt-10">
             <h2 className="text-2xl lg:text-4xl font-medium font-cantataOne text-maribrown mb-6 ">
@@ -154,9 +167,15 @@ export const InvisaLign = () => {
                 rel="ir ao whatsapp"
               >
                 Fale conosco e agende sua consulta
-                <span className="material-symbols-outlined text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 text-2xl transition-all duration-300 ease-linear delay-0">
-                  chevron_right
-                </span>
+                <svg
+                  className="fill-current text-white opacity-0 group-hover:opacity-100 absolute top-1/2 translate-x-1 right-10 transform -translate-y-1/2 transition-all duration-300 ease-linear delay-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 -960 960 960"
+                  width="24"
+                >
+                  <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                </svg>
               </a>
             </div>
           </div>
