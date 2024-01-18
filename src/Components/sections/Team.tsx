@@ -23,7 +23,7 @@ export const Team = () => {
                 <p className="text-md text-center font-openSans">
                   Especialista em Ortodontia e Ortopedia Funcional dos Maxilares
                   <br />
-                  Invisalign Doutora
+                  Invisalign Doctor
                   <br />
                   Pós graduada em Prótese
                   <br />
@@ -51,7 +51,7 @@ export const Team = () => {
                 <p className="text-md text-center font-openSans">
                   Especialista em Endodontia
                   <br />
-                  (tratamento oral)
+                  (Tratamento de canal)
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ export const Team = () => {
                   <br />
                   Pós Graduado em Cirurgia
                   <br />
-                  Mestrando em Buco Maxilo
+                  Mestre em Implantodontia
                 </p>
               </div>
             </div>
