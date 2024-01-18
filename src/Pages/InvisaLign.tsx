@@ -74,12 +74,12 @@ export const InvisaLign = () => {
         <div className="bg-white shadow-imageShadow h-full text-xl text-lightGray leading-loose w-4/5 self-center rounded-3xl pb-10">
           <div className="rounded-t-3xl bg-black overflow-hidden ">
             <LiteYouTubeEmbed
-              id="OPDbxEJapqI"
+              id="2zGO7YyH3B8"
               title="YouTube video player invisalign"
               adNetwork={true}
               params=""
               playlist={false}
-              playlistCoverId="OPDbxEJapqI"
+              playlistCoverId="2zGO7YyH3B8"
               poster="hqdefault"
               noCookie={true}
               webp={true}
