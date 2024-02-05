@@ -27,7 +27,7 @@ export const Header: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollPosition(window.pageYOffset);
+      setScrollPosition(window.scrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -57,11 +57,11 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center sticky z-30  ${
-        scrollPosition > 50 ? "lg:drop-shadow-md" : "border-b"
+      className={`py-2 sm:p-0 bg-white top-0 w-full max-h-fit items-center flex justify-center sticky z-30 border-b  ${
+        scrollPosition > 50 ? "lg:drop-shadow-md" : ""
       }`}
     >
-      <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30">
+      <div className="w-4/5 lg:w-4/5 flex self-center items-center justify-between p-2 z-30 ">
         <Link to={"/"}>
           <img
             src="pics\logo-mari-odontologia-guaruja-fw.webp"

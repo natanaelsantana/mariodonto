@@ -13,9 +13,9 @@ export default {
     },
     extend: {
       colors: {
-        maribrown: "#673425",
+        maribrown: "#76483A",
         lightGray: "#666",
-        mariYellow: "#d49e0a",
+        mariYellow: "#bc6009",
       },
       backgroundImage: () => ({
         "radial-gradient":
