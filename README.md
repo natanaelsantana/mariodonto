@@ -2,15 +2,15 @@
 
 ## Para rodar a aplicação basta: 
 
-1. Clone o projeto ou baixar os arquivos 
 
-2. Entre no diretório e instale as dependências:
+1. Entre no diretório e instale as dependências com o comando abaixo no seu terminal:
 
 ```
  npm install
 ```
+Obs: Tenha certeza de ter o npm 
 
-3. Rode a aplicação com
+2. Rode a aplicação com
 
 ```
 npm run dev
