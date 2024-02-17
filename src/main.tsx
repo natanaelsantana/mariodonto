@@ -9,9 +9,7 @@ import { InvisaLign } from "./Pages/InvisaLign";
 import { Tratamentos } from "./Pages/Tratamentos";
 import { Implante } from "./Pages/Implante";
 import { Facetas } from "./Pages/Facetas";
-import { WhatsappIcon } from "./Components/WhatsIcon";
-import { Helmet } from "react-helmet";
-
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,12 +44,13 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Helmet>
-      <title>
-        Mari Odontologia | Dentista e Tratamento Ortodontista em Guarujá
-      </title>
-    </Helmet>
-    <RouterProvider router={router} />
-    <WhatsappIcon />
+    <HelmetProvider>
+      <Helmet>
+        <title>
+          Mari Odontologia | Dentista e Tratamento Ortodontista em Guarujá
+        </title>
+      </Helmet>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>
 );

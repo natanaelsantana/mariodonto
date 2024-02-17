@@ -6,8 +6,8 @@ import { Treatments } from "../Components/sections/Treatments";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
 import ButtonWithIcon from "../Components/Button";
 import Mariodonto from "/pics/Clinica-Odontologica-Mari-Odontologia-e-Estetica-Dentaria.webp";
-import { Helmet } from "react-helmet";
-
+import { Helmet } from "react-helmet-async";
+import { WhatsappIcon } from "../Components/WhatsIcon";
 export const Home = () => {
   return (
     <div>
@@ -145,6 +145,7 @@ export const Home = () => {
       </section>
 
       <Footer />
+      <WhatsappIcon />
     </div>
   );
 };

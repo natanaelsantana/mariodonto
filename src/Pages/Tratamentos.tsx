@@ -1,11 +1,11 @@
 import ButtonWithIcon from "../Components/Button";
 import { Footer } from "../Components/Footer";
+import { WhatsappIcon } from "../Components/WhatsIcon";
 import { Header } from "../Components/header";
 import { Contact } from "../Components/sections/Contact";
 import { Treatments } from "../Components/sections/Treatments";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
-import { Helmet } from "react-helmet";
-
+import { Helmet } from "react-helmet-async";
 export const Tratamentos = () => {
   return (
     <div>
@@ -19,6 +19,7 @@ export const Tratamentos = () => {
           content="odontologia, dentista, consultório dentário, saúde bucal, ortodontia, estética dentária, clareamento, preenchimento labial, profilaxia, invisaLign"
         />
       </Helmet>
+
       <Header />
 
       <section className=" bg-equipamentosBackground bg-cover bg-center w-screen shadow-insideShadow ">
@@ -51,6 +52,7 @@ export const Tratamentos = () => {
         <Contact />
       </section>
       <Footer />
+      <WhatsappIcon />
     </div>
   );
 };

@@ -4,8 +4,8 @@ import { Team } from "../Components/sections/Team";
 import { TreatmentsIcons } from "../Components/sections/treatmentsIcons";
 import { Contact } from "../Components/sections/Contact";
 import ButtonWithIcon from "../Components/Button";
-import { Helmet } from "react-helmet";
-
+import { Helmet } from "react-helmet-async";
+import { WhatsappIcon } from "../Components/WhatsIcon";
 export const QuemSomos = () => {
   return (
     <div>
@@ -69,9 +69,6 @@ export const QuemSomos = () => {
         <div className="flex justify-center bg-linear-gradient  bg-cover py-14 px-10 lg:px-32 shadow-insideShadow">
           <div className="w-full md:w-full lg:w-full  ">
             <div className="text-center mb-10">
-              <h2 className="text-2xl font-medium font-cantataOne text-maribrown mb-6 leading-normal">
-                Especialista em Ortodontia e Ortopedia Funcional dos Maxilares
-              </h2>
               <p className="mb-4 text-lightGray leading-loose font-openSans text-lg">
                 Nossa Filosofia é oferecer aos nossos pacientes uma Odontologia
                 de Qualidade, com uma equipe de Especialistas de Excelência.
@@ -111,6 +108,7 @@ export const QuemSomos = () => {
       <section className="pb-20 w-full">
         <Contact />
       </section>
+      <WhatsappIcon />
       <Footer />
     </div>
   );

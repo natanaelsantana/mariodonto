@@ -2,8 +2,8 @@ import { Booking } from "../Components/Booking";
 import { Header } from "../Components/header";
 import { Footer } from "../Components/Footer";
 import ButtonWithIcon from "../Components/Button";
-import { Helmet } from "react-helmet";
-
+import { Helmet } from "react-helmet-async";
+import { WhatsappIcon } from "../Components/WhatsIcon";
 export const Implante = () => {
   return (
     <div>
@@ -116,6 +116,7 @@ export const Implante = () => {
 
       <Booking />
       <Footer />
+      <WhatsappIcon />
     </div>
   );
 };

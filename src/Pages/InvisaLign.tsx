@@ -1,8 +1,9 @@
 import { Booking } from "../Components/Booking";
 import { Footer } from "../Components/Footer";
+import { WhatsappIcon } from "../Components/WhatsIcon";
 import { Header } from "../Components/header";
 import InvisaImg from "/pics/tratamento-invisalign.webp";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
@@ -190,6 +191,7 @@ export const InvisaLign = () => {
       <Booking />
 
       <Footer />
+      <WhatsappIcon />
     </div>
   );
 };

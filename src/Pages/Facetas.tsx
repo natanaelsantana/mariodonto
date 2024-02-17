@@ -2,8 +2,8 @@ import { Booking } from "../Components/Booking";
 import { Header } from "../Components/header";
 import { Footer } from "../Components/Footer";
 import ButtonWithIcon from "../Components/Button";
-import { Helmet } from "react-helmet";
-
+import { WhatsappIcon } from "../Components/WhatsIcon";
+import { Helmet } from "react-helmet-async";
 export const Facetas = () => {
   return (
     <div>
@@ -135,6 +135,7 @@ export const Facetas = () => {
 
       <Booking />
       <Footer />
+      <WhatsappIcon />
     </div>
   );
 };
